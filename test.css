@@ -1,0 +1,9 @@
+@custom-media --small (min-width: 600px);
+
+.classname {
+  color: blue;
+
+  @media (--small) {
+    color: red;
+  }
+}
