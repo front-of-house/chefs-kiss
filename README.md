@@ -1,4 +1,4 @@
-# chefs-kiss
+# chefs-kiss 👨‍🍳
 
 Pre-made artisal diswasher-safe non-GMO microwave dinner. Just flip on the boob
 tube and write some CSS.
