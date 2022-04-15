@@ -1,7 +1,7 @@
 # chefs-kiss 👨‍🍳
 
 Pre-made artisal diswasher-safe non-GMO microwave dinner. Just flip on the boob
-tube and write some CSS.
+tube and write some code.
 
 ```sh
 npm i chefs-kiss
@@ -9,24 +9,28 @@ npm i chefs-kiss
 
 ## Usage
 
-It's literally just the [postcss-cli](https://github.com/postcss/postcss-cli)
-lightly salted with a few pre-set plugins.
-
-Choose your flavor:
+It's literally just postcss and esbuild (optionally babel). Specify an input and
+an output.
 
 ```sh
-spaghetti src/styles.css -o dist/styles.css
+spaghetti index.tsx output.js
+```
+
+Or choose your flavor:
+
+```sh
+spaghetti src/styles.css dist/styles.css
 ```
 
 ```sh
-spagett src/styles.css -d dist --watch
+spagett src/index.ts build/index.js --legacy --global Spagett
 ```
 
 ```sh
-gabagool src/styles.css -d dist --no-map
+gabagool src/main.css public/styles.css --minify false
 ```
 
-Any for other options, see `spaghetti -h`.
+For other options, see `spaghetti -h`.
 
 ## License
 

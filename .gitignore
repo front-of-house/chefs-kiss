@@ -5,3 +5,5 @@ dist
 .nyc_output
 .pnpm*
 coverage
+output.js
+output.css
